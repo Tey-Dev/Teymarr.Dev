@@ -2,10 +2,11 @@
 body {
     background-color: #cce7ff; /* Pastel blue background */
     color: #1a73e8; /* Bold blue text */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif; /* Sans-serif for body */
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    text-align: center; /* Center-align body text */
 }
 
 /* Headers */
@@ -14,12 +15,14 @@ h1, h2, h3 {
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace; /* Monospace for headers */
 }
 
 /* Links */
 a {
     color: #0056b3; /* Bold blue for links */
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace; /* Monospace for links */
 }
 
 a:hover {
@@ -37,6 +40,7 @@ header, footer {
 
 p, li {
     margin: 10px 20px;
+    font-family: 'Arial', sans-serif; /* Use Arial for paragraphs and list items */
 }
 
 /* Lists */
@@ -63,4 +67,3 @@ button {
 button:hover {
     background-color: #0047ab; /* Darker blue for hover */
 }
-
