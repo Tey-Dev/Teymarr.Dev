@@ -2,27 +2,24 @@
 body {
     background-color: #cce7ff; /* Pastel blue background */
     color: #1a73e8; /* Bold blue text */
-    font-family: 'Arial', sans-serif; /* Sans-serif for body */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for the body */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    text-align: center; /* Center-align body text */
 }
 
 /* Headers */
 h1, h2, h3 {
     color: #0047ab; /* Darker blue for headers */
     font-weight: bold;
-    text-align: center;
+    text-align: left; /* Title stays left-aligned */
     margin-top: 20px;
-    font-family: 'Courier New', Courier, monospace; /* Monospace for headers */
 }
 
 /* Links */
 a {
     color: #0056b3; /* Bold blue for links */
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace; /* Monospace for links */
 }
 
 a:hover {
@@ -30,53 +27,6 @@ a:hover {
 }
 
 /* Layout Styling */
-header, footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #b3d4fc; /* Lighter blue for header/footer */
-    border-top: 2px solid #0047ab;
-    border-bottom: 2px solid #0047ab;
-}
-
-p, li {
-    margin: 10px 20px;
-    font-family: 'Arial', sans-serif; /* Use Arial for paragraphs and list items */
-}
-
-/* Lists */
-ul {
-    list-style-type: none; /* No bullets for lists */
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-/* Buttons (optional for future use) */
-button {
-    background-color: #1a73e8; /* Blue background */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #0047ab; /* Darker blue for hover */
-}
-/* General Styling */
-body {
-    background-color: #cce7ff; /* Pastel blue */
-    font-family: 'Courier New', Courier, monospace;
-    color: #1a73e8;
-    margin: 0;
-    padding: 0;
-}
-
-/* Layout */
 .container {
     display: flex;
     justify-content: space-between;
@@ -104,7 +54,7 @@ body {
 }
 
 .links a {
-    color: #0056b3;
+    color: #0056b3; /* Link color */
     text-decoration: none;
     margin: 10px 0;
     font-size: 16px;
@@ -117,6 +67,7 @@ body {
 /* Right Section */
 .right {
     width: 65%;
+    text-align: left; /* Ensure About Me text is left-aligned */
 }
 
 .right h1 {
@@ -134,9 +85,13 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
     .left, .right {
         width: 100%;
         text-align: center;
     }
-}
 
+    .right {
+        text-align: center; /* Center-align About Me on smaller screens */
+    }
+}
