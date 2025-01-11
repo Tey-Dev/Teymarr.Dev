@@ -98,35 +98,35 @@ a:hover {
 
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
+    gap: 20px;
     padding: 20px;
-    gap: 40px; /* Add more space between About Me and My Projects */
 }
 
-.left {
-    width: 25%; /* Slightly narrower for the left section */
-    text-align: center;
+/* Ensure About Me and Projects stack */
+.about-me {
+    width: 100%; /* Take the full width for About Me */
+    margin-bottom: 40px; /* Add space below About Me */
 }
 
-.right {
-    width: 45%; /* Give About Me more room */
-    margin-right: 20px; /* Add a small margin to separate it from My Projects */
+.projects {
+    width: 100%; /* Take the full width for Projects */
+    margin-top: 0; /* No extra margin needed */
 }
 
 .project-list {
     list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove default padding */
-    margin-top: 20px; /* Add space above the project list */
+    padding: 0;
+    margin-top: 20px; /* Space above the project list */
 }
 
 .project-list li {
-    margin-bottom: 10px; /* Add spacing between project links */
+    margin-bottom: 10px; /* Spacing between links */
 }
 
 .project-list a {
     text-decoration: none;
-    color: #0056b3; /* Make links stand out */
+    color: #0056b3; /* Match link colors */
     font-weight: bold;
 }
 
