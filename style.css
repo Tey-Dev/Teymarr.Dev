@@ -95,25 +95,28 @@ a:hover {
         text-align: center; /* Center-align About Me on smaller screens */
     }
 }
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
-    gap: 20px;
+    gap: 40px; /* Add more space between About Me and My Projects */
 }
 
 .left {
-    width: 30%;
+    width: 25%; /* Slightly narrower for the left section */
     text-align: center;
 }
 
-.right, .projects {
-    width: 65%;
+.right {
+    width: 45%; /* Give About Me more room */
+    margin-right: 20px; /* Add a small margin to separate it from My Projects */
 }
 
 .projects {
-    margin-top: 0; /* Align projects with About Me */
+    width: 30%; /* Reduce the width of My Projects to balance */
+    margin-left: 20px; /* Add a small margin to separate it from About Me */
 }
 
 .posts {
@@ -140,3 +143,4 @@ a:hover {
 .post p {
     color: #1a73e8;
 }
+
