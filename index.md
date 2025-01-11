@@ -50,8 +50,4 @@ layout: default
         {% endfor %}
     </ul>
 </div>
-<footer>
-    Designed with ❤️ by Teymarr.
-    <a href="https://github.com/yourusername">GitHub</a>
-</footer>
 
