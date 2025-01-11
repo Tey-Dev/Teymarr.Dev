@@ -19,6 +19,12 @@
       {{ content }}
     </main>
     <!-- Footer removed -->
+    <script>
+      // Add a "loading" class to the body while the page loads
+      document.body.classList.add('loading');
+      window.onload = () => {
+        document.body.classList.remove('loading');
+      };
+    </script>
   </body>
 </html>
-
