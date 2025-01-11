@@ -114,33 +114,22 @@ a:hover {
     margin-right: 20px; /* Add a small margin to separate it from My Projects */
 }
 
-.projects {
-    width: 30%; /* Reduce the width of My Projects to balance */
-    margin-left: 20px; /* Add a small margin to separate it from About Me */
+.project-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin-top: 20px; /* Add space above the project list */
 }
 
-.posts {
-    margin-top: 20px;
+.project-list li {
+    margin-bottom: 10px; /* Add spacing between project links */
 }
 
-.post {
-    margin-bottom: 20px;
-}
-
-.post h3 {
-    color: #0047ab;
-}
-
-.post a {
+.project-list a {
     text-decoration: none;
-    color: #0056b3;
+    color: #0056b3; /* Make links stand out */
+    font-weight: bold;
 }
 
-.post a:hover {
+.project-list a:hover {
     text-decoration: underline;
 }
-
-.post p {
-    color: #1a73e8;
-}
-
