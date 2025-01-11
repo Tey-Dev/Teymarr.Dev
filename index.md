@@ -12,8 +12,8 @@ layout: default
 
         <!-- Links below your picture -->
         <div class="links">
-            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-            <a href="mailto:your.email@example.com">Email</a>
+            <a href="https://linkedin.com/in/teymarrpagedev" target="_blank">LinkedIn</a>
+            <a href="mailto:teymarrpage@tuta.io">Email</a>
             <a href="resume.pdf" download>Download Resume</a>
         </div>
     </div>
