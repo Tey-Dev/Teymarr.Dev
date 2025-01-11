@@ -19,7 +19,7 @@ layout: default
     <div class="right">
         <h1>About Me</h1>
         <p>
-            Hello, my name is <strong>Teymarr</strong> (Tay-Mar), and I’m a UI/UX front-end developer. I’m always on the lookout for innovative ways to enhance people’s lives in various ways. Equity and inclusion are always at the forefront of my mind when I’m planning new projects. I genuinely enjoy coding, visual design, and UX research.
+            Hello, my name is <strong>Teymarr</strong> (Tay-Mar), and I’m a UI/UX front-end developer. I’m always on the lookout for innovative ways to enhance people’s lives in various ways. Equity and inclusion are always at the forefront of my mind when I’m planning new projects. I genuinely enjoy coding, visual design, and UX research.My personal design style is super minimalist, like you can see on my portfolio. I prefer sleek, clean interfaces that don’t rely on a lot of color or flashy stuff.
         </p>
         <p>
             My proficiency encompasses the following areas:
