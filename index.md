@@ -1,6 +1,7 @@
 ---
 title: Hey Everyone
 ---
+<link rel="stylesheet" href="style.css">
 
 Hello,
 
