@@ -2,8 +2,6 @@ theme: minima
 title: Teymarr.Dev
 description: A portfolio site
 markdown: kramdown
-nav {
-    display: none;
-}
+
 
 
