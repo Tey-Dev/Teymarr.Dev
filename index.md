@@ -36,15 +36,17 @@ layout: default
             <li>Ruby</li>
         </ul>
     </div>
-</div>
 
-<h2>My Projects</h2>
-<div class="posts">
-    {% for post in site.posts %}
-        <div class="post">
-            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-            <p>{{ post.excerpt }}</p>
+    <div class="projects">
+        <h2>My Projects</h2>
+        <div class="posts">
+            {% for post in site.posts %}
+                <div class="post">
+                    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                    <p>{{ post.excerpt }}</p>
+                </div>
+            {% endfor %}
         </div>
-    {% endfor %}
+    </div>
 </div>
 
