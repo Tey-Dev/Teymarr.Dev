@@ -1,1 +1,11 @@
 theme: minima
+title: Teymarr.Dev
+description: A portfolio site
+markdown: kramdown
+
+# Enable navigation links
+nav:
+  - title: "About"
+    url: /
+  - title: "Projects"
+    url: /projects/
