@@ -95,3 +95,48 @@ a:hover {
         text-align: center; /* Center-align About Me on smaller screens */
     }
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.left {
+    width: 30%;
+    text-align: center;
+}
+
+.right, .projects {
+    width: 65%;
+}
+
+.projects {
+    margin-top: 0; /* Align projects with About Me */
+}
+
+.posts {
+    margin-top: 20px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post h3 {
+    color: #0047ab;
+}
+
+.post a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post p {
+    color: #1a73e8;
+}
