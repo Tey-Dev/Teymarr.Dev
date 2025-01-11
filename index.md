@@ -17,23 +17,25 @@ layout: default
             <a href="resume.pdf" download>Download Resume</a>
         </div>
     </div>
+
     <div class="right">
         <h1>About Me</h1>
         <p>
             Hello, my name is <strong>Teymarr</strong> (Tay-Mar), and I’m a UI/UX front-end developer. I’m always on the lookout for innovative ways to enhance people’s lives in various ways. Equity and inclusion are always at the forefront of my mind when I’m planning new projects. I genuinely enjoy coding, visual design, and UX research.
-
-My proficiency encompasses the following areas: 
-
-* PHP
-* MySQL
-* HTML5
-* Bash
-* Python
-* Swift
-* Css
-* Javascript
-* Ruby
-
         </p>
+        <p>
+            My proficiency encompasses the following areas:
+        </p>
+        <ul>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>HTML5</li>
+            <li>Bash</li>
+            <li>Python</li>
+            <li>Swift</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+        </ul>
     </div>
 </div>
