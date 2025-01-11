@@ -1,7 +1,12 @@
 theme: minima
-title: Teymarr.Dev
+title: Portfolio
 description: A portfolio site
 markdown: kramdown
 
-
+# Navigation links
+nav:
+  - title: "About Me"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
 
