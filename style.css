@@ -136,19 +136,18 @@ a:hover {
 header h1 {
     display: none; /* Hides the site title in the header */
 }
-footer {
-    text-align: center;
-    font-size: 14px;
+body::before {
+    content: 'Loading...';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
     color: #1a73e8;
-    padding: 10px 0;
+    display: none;
+}
+body.loading::before {
+    display: block;
 }
 
-footer a {
-    color: #0056b3;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
 
