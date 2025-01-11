@@ -20,7 +20,20 @@ layout: default
     <div class="right">
         <h1>About Me</h1>
         <p>
-            Hello, my name is <strong>Teymarr</strong> (Tay-Mar), and I am a UI/UX front-end developer. I am passionate about finding innovative ways to enhance the human experience. Feel free to explore my thoughts and ideas freely.
+            Hello, my name is <strong>Teymarr</strong> (Tay-Mar), and I’m a UI/UX front-end developer. I’m always on the lookout for innovative ways to enhance people’s lives in various ways. Equity and inclusion are always at the forefront of my mind when I’m planning new projects. I genuinely enjoy coding, visual design, and UX research.
+
+My proficiency encompasses the following areas: 
+
+* PHP
+* MySQL
+* HTML5
+* Bash
+* Python
+* Swift
+* Css
+* Javascript
+* Ruby
+
         </p>
     </div>
 </div>
