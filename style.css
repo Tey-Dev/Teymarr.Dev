@@ -133,3 +133,7 @@ a:hover {
 .project-list a:hover {
     text-decoration: underline;
 }
+header h1 {
+    display: none; /* Hides the site title in the header */
+}
+
