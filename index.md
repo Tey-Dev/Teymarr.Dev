@@ -7,10 +7,8 @@ layout: default
 
 <div class="container">
     <div class="left">
-        <!-- Reference the uploaded avatar.png -->
         <img src="avatar.png" alt="Teymarr's Profile Picture" class="profile-pic">
 
-        <!-- Links below your picture -->
         <div class="links">
             <a href="https://linkedin.com/in/teymarrpagedev" target="_blank">LinkedIn</a>
             <a href="mailto:teymarrpage@tuta.io">Email</a>
@@ -39,3 +37,14 @@ layout: default
         </ul>
     </div>
 </div>
+
+<h2>My Projects</h2>
+<div class="posts">
+    {% for post in site.posts %}
+        <div class="post">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt }}</p>
+        </div>
+    {% endfor %}
+</div>
+
