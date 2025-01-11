@@ -136,18 +136,11 @@ a:hover {
 header h1 {
     display: none; /* Hides the site title in the header */
 }
-body::before {
-    content: 'Loading...';
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    color: #1a73e8;
-    display: none;
+.hr-line {
+    border: none;
+    border-top: 2px dashed #0047ab;
+    margin: 20px 0;
 }
-body.loading::before {
-    display: block;
-}
+
 
 
