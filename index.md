@@ -1,5 +1,5 @@
 ---
-title: Hey Everyone
+title: Home
 layout: default
 ---
 
