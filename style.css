@@ -1,7 +1,7 @@
 /* Background and Typography */
 body {
     background-image
-        radial-gradient(Cyan, DodgerBlue, LavenderBlush) /* Pastel blue background */
+        radial-gradient(LightSkyBlue, DodgerBlue, LavenderBlush) /* Pastel blue background */
     color: #1a73e8; /* Bold blue text */
     font-family: 'Courier New', Courier, monospace; /* Monospace font for the body */
     line-height: 1.6;
