@@ -154,6 +154,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* General body style for everything */
+body {
+    background-color: #cce7ff; /* Pastel blue for homepage */
+}
+
+/* Make blog posts white */
+.blog-posts {
+    background-color: #ffffff; /* White background for posts */
+    color: #000000;            /* Adjust text color for contrast */
+}
 
 
 
