@@ -96,14 +96,7 @@ a:hover {
     }
 }
 
-.container {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-}
-
-/* Ensure About Me and Projects stack */
+/* About Me and Projects */
 .about-me {
     width: 100%; /* Take the full width for About Me */
     margin-bottom: 40px; /* Add space below About Me */
@@ -133,6 +126,7 @@ a:hover {
 .project-list a:hover {
     text-decoration: underline;
 }
+
 /* Navigation Section */
 nav {
     float: right; /* Move the navigation to the right */
@@ -140,7 +134,7 @@ nav {
     margin-right: 20px; /* Add some space from the edge */
 }
 
-/* Other general styles for body or container */
+/* General body style for everything */
 body {
     display: flex;
     flex-direction: column;
@@ -151,16 +145,14 @@ header, footer {
     margin: 0 auto;
 }
 
-/* General body style for everything */
-body {
-    background-color: #cce7ff; /* Pastel blue for homepage */
-}
-
 /* Make blog posts white */
 .blog-posts {
     background-color: #ffffff; /* White background for posts */
     color: #000000;            /* Adjust text color for contrast */
+    padding: 20px;             /* Add spacing for readability */
+    border-radius: 8px;        /* Optional: smooth edges */
 }
+
 /* General rule for all images to keep their natural size unless specified */
 img {
     max-width: none; /* Default for all images outside blog posts */
@@ -171,7 +163,3 @@ img {
     max-width: 100%; /* Make blog post images responsive */
     height: auto;    /* Maintain aspect ratio */
 }
-
-
-
-
