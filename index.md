@@ -10,7 +10,7 @@ layout: default
         <img src="avatar.png" alt="Teymarr's Profile Picture" class="profile-pic">
 
     
-<h1 class="name">Teymarr</h1>
+<h1 class="name">Teymarr Page (he/him)</h1>
 <h2 class="job-title">UI/UX Front-End Developer</h2>
 
         <div class="links">
