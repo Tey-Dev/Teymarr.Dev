@@ -150,10 +150,7 @@ header, footer {
     text-align: center;
     margin: 0 auto;
 }
-img {
-  max-width: 100%;
-  height: auto;
-}
+
 /* General body style for everything */
 body {
     background-color: #cce7ff; /* Pastel blue for homepage */
