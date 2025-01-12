@@ -28,6 +28,7 @@ layout: default
 My personal style is super minimalist, like you can see on my portfolio. I prefer clean, simple interfaces that don’t have too much color or flashy stuff.
 
 I can code with a bunch of languages, including PHP, MySQL, HTML5, Bash, Python, Swift, CSS, JavaScript, and Ruby. Feel free to check out my projects in bold at the bottom of the page to see some of my favorites!
+
     </ul>
 </div>
 
