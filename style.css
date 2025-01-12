@@ -135,35 +135,5 @@ nav {
     margin-right: 20px; /* Add some space from the edge */
 }
 
-/* Blog Posts Section */
-.blog-posts {
-    background-color: #ffffff; /* White background for posts */
-    color: #000000; /* Black text for contrast */
-    padding: 20px; /* Add spacing for readability */
-    margin: 20px auto; /* Center the blog post content */
-    max-width: 800px; /* Restrict width for better readability */
-    border-radius: 8px; /* Smooth edges */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow for a polished look */
-}
 
-/* Blog Post Images */
-.blog-posts img {
-    display: block; /* Center the image */
-    margin: 0 auto 15px; /* Add spacing below image */
-    max-width: 100%; /* Ensure image fits the container */
-    height: auto; /* Maintain aspect ratio */
-}
-
-/* Blog Post Title */
-.blog-posts h2 {
-    text-align: center; /* Center-align titles */
-    margin-bottom: 10px; /* Add spacing below titles */
-    color: #0047ab; /* Match the header color */
-}
-
-/* Blog Post Content */
-.blog-posts p {
-    text-align: justify; /* Justify text for readability */
-    line-height: 1.6; /* Add spacing between lines */
-}
 
