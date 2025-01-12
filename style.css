@@ -30,10 +30,13 @@ a:hover {
 /* Layout Styling */
 .container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column; /* Stacks sections vertically */
+  justify-content: flex-start; /* Aligns items to the top */
+  align-items: center; /* Centers content horizontally */
   padding: 20px;
+  gap: 40px; /* Adds spacing between sections */
 }
+
 
 /* Left Section */
 .left {
