@@ -12,7 +12,7 @@ body {
 h1, h2, h3 {
     color: #0047ab; /* Darker blue for headers */
     font-weight: bold;
-    text-align: center; /* Title stays left-aligned */
+    text-align: center; /* Center-align titles */
     margin-top: 20px;
 }
 
@@ -145,21 +145,34 @@ header, footer {
     margin: 0 auto;
 }
 
-/* Make blog posts white */
+/* Blog Posts Section */
 .blog-posts {
     background-color: #ffffff; /* White background for posts */
-    color: #000000;            /* Adjust text color for contrast */
-    padding: 20px;             /* Add spacing for readability */
-    border-radius: 8px;        /* Optional: smooth edges */
+    color: #000000; /* Black text for contrast */
+    padding: 20px; /* Add spacing for readability */
+    margin: 20px auto; /* Center the blog post content */
+    max-width: 800px; /* Restrict width for better readability */
+    border-radius: 8px; /* Smooth edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow for a polished look */
 }
 
-/* General rule for all images to keep their natural size unless specified */
-img {
-    max-width: none; /* Default for all images outside blog posts */
-}
-
-/* Target only blog post images */
+/* Blog Post Images */
 .blog-posts img {
-    max-width: 100%; /* Make blog post images responsive */
-    height: auto;    /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: 0 auto 15px; /* Add spacing below image */
+    max-width: 100%; /* Ensure image fits the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Blog Post Title */
+.blog-posts h2 {
+    text-align: center; /* Center-align titles */
+    margin-bottom: 10px; /* Add spacing below titles */
+    color: #0047ab; /* Match the header color */
+}
+
+/* Blog Post Content */
+.blog-posts p {
+    text-align: justify; /* Justify text for readability */
+    line-height: 1.6; /* Add spacing between lines */
 }
