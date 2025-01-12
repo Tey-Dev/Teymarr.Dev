@@ -1,140 +1,137 @@
 /* Background and Typography */
 body {
   background-image: radial-gradient(Cyan, DodgerBlue, LavenderBlush);
-}
-    color: #1a73e8; /* Bold blue text */
-    font-family: 'Courier New', Courier, monospace; /* Monospace font for the body */
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    display: block; /* Reset to default flow */
+  color: #1a73e8; /* Bold blue text */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font for the body */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: block; /* Reset to default flow */
 }
 
 /* Headers */
 h1, h2, h3 {
-    color: #0047ab; /* Darker blue for headers */
-    font-weight: bold;
-    text-align: center; /* Center-align titles */
-    margin-top: 20px;
+  color: #0047ab; /* Darker blue for headers */
+  font-weight: bold;
+  text-align: center; /* Center-align titles */
+  margin-top: 20px;
 }
 
 /* Links */
 a {
-    color: #0056b3; /* Bold blue for links */
-    text-decoration: none;
+  color: #0056b3; /* Bold blue for links */
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Layout Styling */
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
 }
 
 /* Left Section */
 .left {
-    width: 30%;
-    text-align: center;
+  width: 30%;
+  text-align: center;
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Makes the image circular */
-    margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 20px;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .links a {
-    color: #0056b3; /* Link color */
-    text-decoration: none;
-    margin: 10px 0;
-    font-size: 16px;
+  color: #0056b3; /* Link color */
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 16px;
 }
 
 .links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Right Section */
 .right {
-    width: 65%;
-    text-align: left; /* Ensure About Me text is left-aligned */
+  width: 65%;
+  text-align: left; /* Ensure About Me text is left-aligned */
 }
 
 .right h1 {
-    color: #0047ab;
-    margin-bottom: 20px;
+  color: #0047ab;
+  margin-bottom: 20px;
 }
 
 .right p {
-    line-height: 1.8;
+  line-height: 1.8;
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .left, .right {
-        width: 100%;
-        text-align: center;
-    }
+  .left,
+  .right {
+    width: 100%;
+    text-align: center;
+  }
 
-    .right {
-        text-align: center; /* Center-align About Me on smaller screens */
-    }
+  .right {
+    text-align: center; /* Center-align About Me on smaller screens */
+  }
 }
 
 /* About Me and Projects */
 .about-me {
-    width: 100%; /* Take the full width for About Me */
-    margin-bottom: 40px; /* Add space below About Me */
+  width: 100%; /* Take the full width for About Me */
+  margin-bottom: 40px; /* Add space below About Me */
 }
 
 .projects {
-    width: 100%; /* Take the full width for Projects */
-    margin-top: 0; /* No extra margin needed */
+  width: 100%; /* Take the full width for Projects */
+  margin-top: 0; /* No extra margin needed */
 }
 
 .project-list {
-    list-style-type: none; /* Remove bullets */
-    padding: 0;
-    margin-top: 20px; /* Space above the project list */
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin-top: 20px; /* Space above the project list */
 }
 
 .project-list li {
-    margin-bottom: 10px; /* Spacing between links */
+  margin-bottom: 10px; /* Spacing between links */
 }
 
 .project-list a {
-    text-decoration: none;
-    color: #0056b3; /* Match link colors */
-    font-weight: bold;
+  text-decoration: none;
+  color: #0056b3; /* Match link colors */
+  font-weight: bold;
 }
 
 .project-list a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Navigation Section */
 nav {
-    float: right; /* Move the navigation to the right */
-    text-align: right; /* Align text to the right */
-    margin-right: 20px; /* Add some space from the edge */
+  float: right; /* Move the navigation to the right */
+  text-align: right; /* Align text to the right */
+  margin-right: 20px; /* Add some space from the edge */
 }
-
-
-
