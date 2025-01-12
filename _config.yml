@@ -6,7 +6,6 @@ markdown: kramdown
 # Navigation links
 nav:
   - title: "About Me"
-    url: "/"
+    url: "/index.html"
   - title: "Projects"
-    url: "/projects/"
-
+    url: "/projects.html"
