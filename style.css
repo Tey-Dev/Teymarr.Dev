@@ -1,6 +1,7 @@
 /* Background and Typography */
 body {
-  background-color: skyblue;
+  background-image: 
+    linear-gradient (skyblue, red, pink);
   color: #1a73e8; /* Bold blue text */
   font-family: 'Courier New', Courier, monospace; /* Monospace font for the body */
   line-height: 1.6;
