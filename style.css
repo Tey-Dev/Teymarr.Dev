@@ -12,7 +12,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,166,199,1) 35%, r
 
 /* Headers */
 h1, h2, h3 {
-  color: #0047ab; /* Darker blue for headers */
+  color: #ffffff; /* white for headers */
   font-weight: bold;
   text-align: center; /* Center-align titles */
   margin-top: 20px;
@@ -20,7 +20,7 @@ h1, h2, h3 {
 
 /* Links */
 a {
-  color: #0056b3; /* Bold blue for links */
+  color: #ffffff; /* Bold blue for links */
   text-decoration: none;
 }
 
@@ -46,8 +46,8 @@ a:hover {
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%; /* Makes the image circular */
   margin-bottom: 20px;
 }
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .links a {
-  color: #0056b3; /* Link color */
+  color: #000000; /* Link color */
   text-decoration: none;
   margin: 10px 0;
   font-size: 16px;
@@ -125,7 +125,7 @@ a:hover {
 
 .project-list a {
   text-decoration: none;
-  color: #0056b3; /* Match link colors */
+  color: #000000; /* Match link colors */
   font-weight: bold;
 }
 
