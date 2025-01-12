@@ -6,6 +6,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    display: block; /* Reset to default flow */
 }
 
 /* Headers */
@@ -134,17 +135,6 @@ nav {
     margin-right: 20px; /* Add some space from the edge */
 }
 
-/* General body style for everything */
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-header, footer {
-    text-align: center;
-    margin: 0 auto;
-}
-
 /* Blog Posts Section */
 .blog-posts {
     background-color: #ffffff; /* White background for posts */
@@ -176,3 +166,4 @@ header, footer {
     text-align: justify; /* Justify text for readability */
     line-height: 1.6; /* Add spacing between lines */
 }
+
