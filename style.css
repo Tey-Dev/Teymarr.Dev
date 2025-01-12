@@ -161,7 +161,16 @@ body {
     background-color: #ffffff; /* White background for posts */
     color: #000000;            /* Adjust text color for contrast */
 }
+/* General rule for all images to keep their natural size unless specified */
+img {
+    max-width: none; /* Default for all images outside blog posts */
+}
 
+/* Target only blog post images */
+.blog-posts img {
+    max-width: 100%; /* Make blog post images responsive */
+    height: auto;    /* Maintain aspect ratio */
+}
 
 
 
