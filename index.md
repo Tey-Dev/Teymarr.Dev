@@ -9,6 +9,10 @@ layout: default
     <div class="left">
         <img src="avatar.png" alt="Teymarr's Profile Picture" class="profile-pic">
 
+    
+<h1 class="name">Teymarr</h1>
+<h2 class="job-title">UI/UX Front-End Developer</h2>
+
         <div class="links">
             <a href="https://linkedin.com/in/teymarrpagedev" target="_blank">LinkedIn</a>
             <a href="mailto:teymarrpage@tuta.io">Email</a>
