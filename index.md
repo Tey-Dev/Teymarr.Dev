@@ -7,7 +7,7 @@ layout: default
 
 <div class="container">
     <div class="left">
-        <img src="avatar.png" alt="Teymarr's Profile Picture" class="profile-pic">
+        <img src="avatar1.png" alt="Teymarr's Profile Picture" class="profile-pic">
 
     
 <h1 class="name">Teymarr Page (he/him)</h1>
